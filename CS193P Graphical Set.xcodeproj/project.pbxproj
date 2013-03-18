@@ -33,6 +33,8 @@
 		5A9A1DB516F7AFA30016094E /* GSet_CollectionView_TextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A1DAD16F7AFA30016094E /* GSet_CollectionView_TextCell.m */; };
 		5A9A1DB616F7AFA30016094E /* GSet_PlayingCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A1DAF16F7AFA30016094E /* GSet_PlayingCardView.m */; };
 		5A9A1DB716F7AFA30016094E /* GSet_SetCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A1DB116F7AFA30016094E /* GSet_SetCardView.m */; };
+		5A9A1DBB16F7B01E0016094E /* cardback.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A9A1DB916F7B01E0016094E /* cardback.png */; };
+		5A9A1DBC16F7B01E0016094E /* Face Card Images in Resources */ = {isa = PBXBuildFile; fileRef = 5A9A1DBA16F7B01E0016094E /* Face Card Images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +84,8 @@
 		5A9A1DAF16F7AFA30016094E /* GSet_PlayingCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSet_PlayingCardView.m; sourceTree = "<group>"; };
 		5A9A1DB016F7AFA30016094E /* GSet_SetCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSet_SetCardView.h; sourceTree = "<group>"; };
 		5A9A1DB116F7AFA30016094E /* GSet_SetCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSet_SetCardView.m; sourceTree = "<group>"; };
+		5A9A1DB916F7B01E0016094E /* cardback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardback.png; sourceTree = "<group>"; };
+		5A9A1DBA16F7B01E0016094E /* Face Card Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Face Card Images"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +144,7 @@
 		5A9A1D6C16F7AEAA0016094E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5A9A1DB816F7B00C0016094E /* Images */,
 				5A9A1D7416F7AEAA0016094E /* GSet_AppDelegate.h */,
 				5A9A1D7516F7AEAA0016094E /* GSet_AppDelegate.m */,
 				5A9A1D6D16F7AEAA0016094E /* CS193P Graphical Set-Info.plist */,
@@ -206,6 +211,15 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		5A9A1DB816F7B00C0016094E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5A9A1DB916F7B01E0016094E /* cardback.png */,
+				5A9A1DBA16F7B01E0016094E /* Face Card Images */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -263,6 +277,8 @@
 				5A9A1D7A16F7AEAA0016094E /* Default@2x.png in Resources */,
 				5A9A1D7C16F7AEAA0016094E /* Default-568h@2x.png in Resources */,
 				5A9A1D7F16F7AEAA0016094E /* MainStoryboard.storyboard in Resources */,
+				5A9A1DBB16F7B01E0016094E /* cardback.png in Resources */,
+				5A9A1DBC16F7B01E0016094E /* Face Card Images in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
