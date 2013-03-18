@@ -18,6 +18,21 @@
 		5A9A1D7C16F7AEAA0016094E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A9A1D7B16F7AEAA0016094E /* Default-568h@2x.png */; };
 		5A9A1D7F16F7AEAA0016094E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A9A1D7D16F7AEAA0016094E /* MainStoryboard.storyboard */; };
 		5A9A1D8216F7AEAA0016094E /* GSet_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A1D8116F7AEAA0016094E /* GSet_ViewController.m */; };
+		5A9A1D9916F7AF7B0016094E /* GSet_Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A1D8C16F7AF7B0016094E /* GSet_Card.m */; };
+		5A9A1D9A16F7AF7B0016094E /* GSet_CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A1D8E16F7AF7B0016094E /* GSet_CardMatchingGame.m */; };
+		5A9A1D9B16F7AF7B0016094E /* GSet_Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A1D9016F7AF7B0016094E /* GSet_Deck.m */; };
+		5A9A1D9C16F7AF7B0016094E /* GSet_PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A1D9216F7AF7B0016094E /* GSet_PlayingCard.m */; };
+		5A9A1D9D16F7AF7B0016094E /* GSet_PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A1D9416F7AF7B0016094E /* GSet_PlayingCardDeck.m */; };
+		5A9A1D9E16F7AF7B0016094E /* GSet_SetCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A1D9616F7AF7B0016094E /* GSet_SetCard.m */; };
+		5A9A1D9F16F7AF7B0016094E /* GSet_SetCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A1D9816F7AF7B0016094E /* GSet_SetCardDeck.m */; };
+		5A9A1DA416F7AF910016094E /* GSet_PlayingCard_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A1DA116F7AF910016094E /* GSet_PlayingCard_ViewController.m */; };
+		5A9A1DA516F7AF910016094E /* GSet_SetCard_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A1DA316F7AF910016094E /* GSet_SetCard_ViewController.m */; };
+		5A9A1DB216F7AFA30016094E /* GSet_CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A1DA716F7AFA30016094E /* GSet_CardView.m */; };
+		5A9A1DB316F7AFA30016094E /* GSet_CollectionView_PlayingCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A1DA916F7AFA30016094E /* GSet_CollectionView_PlayingCardCell.m */; };
+		5A9A1DB416F7AFA30016094E /* GSet_CollectionView_SetCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A1DAB16F7AFA30016094E /* GSet_CollectionView_SetCardCell.m */; };
+		5A9A1DB516F7AFA30016094E /* GSet_CollectionView_TextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A1DAD16F7AFA30016094E /* GSet_CollectionView_TextCell.m */; };
+		5A9A1DB616F7AFA30016094E /* GSet_PlayingCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A1DAF16F7AFA30016094E /* GSet_PlayingCardView.m */; };
+		5A9A1DB716F7AFA30016094E /* GSet_SetCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A1DB116F7AFA30016094E /* GSet_SetCardView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +52,36 @@
 		5A9A1D7E16F7AEAA0016094E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		5A9A1D8016F7AEAA0016094E /* GSet_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSet_ViewController.h; sourceTree = "<group>"; };
 		5A9A1D8116F7AEAA0016094E /* GSet_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSet_ViewController.m; sourceTree = "<group>"; };
+		5A9A1D8B16F7AF7B0016094E /* GSet_Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSet_Card.h; sourceTree = "<group>"; };
+		5A9A1D8C16F7AF7B0016094E /* GSet_Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSet_Card.m; sourceTree = "<group>"; };
+		5A9A1D8D16F7AF7B0016094E /* GSet_CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSet_CardMatchingGame.h; sourceTree = "<group>"; };
+		5A9A1D8E16F7AF7B0016094E /* GSet_CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSet_CardMatchingGame.m; sourceTree = "<group>"; };
+		5A9A1D8F16F7AF7B0016094E /* GSet_Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSet_Deck.h; sourceTree = "<group>"; };
+		5A9A1D9016F7AF7B0016094E /* GSet_Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSet_Deck.m; sourceTree = "<group>"; };
+		5A9A1D9116F7AF7B0016094E /* GSet_PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSet_PlayingCard.h; sourceTree = "<group>"; };
+		5A9A1D9216F7AF7B0016094E /* GSet_PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSet_PlayingCard.m; sourceTree = "<group>"; };
+		5A9A1D9316F7AF7B0016094E /* GSet_PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSet_PlayingCardDeck.h; sourceTree = "<group>"; };
+		5A9A1D9416F7AF7B0016094E /* GSet_PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSet_PlayingCardDeck.m; sourceTree = "<group>"; };
+		5A9A1D9516F7AF7B0016094E /* GSet_SetCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSet_SetCard.h; sourceTree = "<group>"; };
+		5A9A1D9616F7AF7B0016094E /* GSet_SetCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSet_SetCard.m; sourceTree = "<group>"; };
+		5A9A1D9716F7AF7B0016094E /* GSet_SetCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSet_SetCardDeck.h; sourceTree = "<group>"; };
+		5A9A1D9816F7AF7B0016094E /* GSet_SetCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSet_SetCardDeck.m; sourceTree = "<group>"; };
+		5A9A1DA016F7AF910016094E /* GSet_PlayingCard_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSet_PlayingCard_ViewController.h; sourceTree = "<group>"; };
+		5A9A1DA116F7AF910016094E /* GSet_PlayingCard_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSet_PlayingCard_ViewController.m; sourceTree = "<group>"; };
+		5A9A1DA216F7AF910016094E /* GSet_SetCard_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSet_SetCard_ViewController.h; sourceTree = "<group>"; };
+		5A9A1DA316F7AF910016094E /* GSet_SetCard_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSet_SetCard_ViewController.m; sourceTree = "<group>"; };
+		5A9A1DA616F7AFA30016094E /* GSet_CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSet_CardView.h; sourceTree = "<group>"; };
+		5A9A1DA716F7AFA30016094E /* GSet_CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSet_CardView.m; sourceTree = "<group>"; };
+		5A9A1DA816F7AFA30016094E /* GSet_CollectionView_PlayingCardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSet_CollectionView_PlayingCardCell.h; sourceTree = "<group>"; };
+		5A9A1DA916F7AFA30016094E /* GSet_CollectionView_PlayingCardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSet_CollectionView_PlayingCardCell.m; sourceTree = "<group>"; };
+		5A9A1DAA16F7AFA30016094E /* GSet_CollectionView_SetCardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSet_CollectionView_SetCardCell.h; sourceTree = "<group>"; };
+		5A9A1DAB16F7AFA30016094E /* GSet_CollectionView_SetCardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSet_CollectionView_SetCardCell.m; sourceTree = "<group>"; };
+		5A9A1DAC16F7AFA30016094E /* GSet_CollectionView_TextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSet_CollectionView_TextCell.h; sourceTree = "<group>"; };
+		5A9A1DAD16F7AFA30016094E /* GSet_CollectionView_TextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSet_CollectionView_TextCell.m; sourceTree = "<group>"; };
+		5A9A1DAE16F7AFA30016094E /* GSet_PlayingCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSet_PlayingCardView.h; sourceTree = "<group>"; };
+		5A9A1DAF16F7AFA30016094E /* GSet_PlayingCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSet_PlayingCardView.m; sourceTree = "<group>"; };
+		5A9A1DB016F7AFA30016094E /* GSet_SetCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSet_SetCardView.h; sourceTree = "<group>"; };
+		5A9A1DB116F7AFA30016094E /* GSet_SetCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSet_SetCardView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +128,10 @@
 		5A9A1D6B16F7AEAA0016094E /* CS193P Graphical Set */ = {
 			isa = PBXGroup;
 			children = (
-				5A9A1D7416F7AEAA0016094E /* GSet_AppDelegate.h */,
-				5A9A1D7516F7AEAA0016094E /* GSet_AppDelegate.m */,
 				5A9A1D7D16F7AEAA0016094E /* MainStoryboard.storyboard */,
-				5A9A1D8016F7AEAA0016094E /* GSet_ViewController.h */,
-				5A9A1D8116F7AEAA0016094E /* GSet_ViewController.m */,
+				5A9A1D8A16F7AF510016094E /* Model */,
+				5A9A1D8916F7AF470016094E /* View */,
+				5A9A1D8816F7AF3D0016094E /* Controller */,
 				5A9A1D6C16F7AEAA0016094E /* Supporting Files */,
 			);
 			path = "CS193P Graphical Set";
@@ -96,6 +140,8 @@
 		5A9A1D6C16F7AEAA0016094E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5A9A1D7416F7AEAA0016094E /* GSet_AppDelegate.h */,
+				5A9A1D7516F7AEAA0016094E /* GSet_AppDelegate.m */,
 				5A9A1D6D16F7AEAA0016094E /* CS193P Graphical Set-Info.plist */,
 				5A9A1D6E16F7AEAA0016094E /* InfoPlist.strings */,
 				5A9A1D7116F7AEAA0016094E /* main.m */,
@@ -105,6 +151,59 @@
 				5A9A1D7B16F7AEAA0016094E /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A9A1D8816F7AF3D0016094E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5A9A1DA016F7AF910016094E /* GSet_PlayingCard_ViewController.h */,
+				5A9A1DA116F7AF910016094E /* GSet_PlayingCard_ViewController.m */,
+				5A9A1DA216F7AF910016094E /* GSet_SetCard_ViewController.h */,
+				5A9A1DA316F7AF910016094E /* GSet_SetCard_ViewController.m */,
+				5A9A1D8016F7AEAA0016094E /* GSet_ViewController.h */,
+				5A9A1D8116F7AEAA0016094E /* GSet_ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		5A9A1D8916F7AF470016094E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5A9A1DA616F7AFA30016094E /* GSet_CardView.h */,
+				5A9A1DA716F7AFA30016094E /* GSet_CardView.m */,
+				5A9A1DA816F7AFA30016094E /* GSet_CollectionView_PlayingCardCell.h */,
+				5A9A1DA916F7AFA30016094E /* GSet_CollectionView_PlayingCardCell.m */,
+				5A9A1DAA16F7AFA30016094E /* GSet_CollectionView_SetCardCell.h */,
+				5A9A1DAB16F7AFA30016094E /* GSet_CollectionView_SetCardCell.m */,
+				5A9A1DAC16F7AFA30016094E /* GSet_CollectionView_TextCell.h */,
+				5A9A1DAD16F7AFA30016094E /* GSet_CollectionView_TextCell.m */,
+				5A9A1DAE16F7AFA30016094E /* GSet_PlayingCardView.h */,
+				5A9A1DAF16F7AFA30016094E /* GSet_PlayingCardView.m */,
+				5A9A1DB016F7AFA30016094E /* GSet_SetCardView.h */,
+				5A9A1DB116F7AFA30016094E /* GSet_SetCardView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		5A9A1D8A16F7AF510016094E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5A9A1D8B16F7AF7B0016094E /* GSet_Card.h */,
+				5A9A1D8C16F7AF7B0016094E /* GSet_Card.m */,
+				5A9A1D8D16F7AF7B0016094E /* GSet_CardMatchingGame.h */,
+				5A9A1D8E16F7AF7B0016094E /* GSet_CardMatchingGame.m */,
+				5A9A1D8F16F7AF7B0016094E /* GSet_Deck.h */,
+				5A9A1D9016F7AF7B0016094E /* GSet_Deck.m */,
+				5A9A1D9116F7AF7B0016094E /* GSet_PlayingCard.h */,
+				5A9A1D9216F7AF7B0016094E /* GSet_PlayingCard.m */,
+				5A9A1D9316F7AF7B0016094E /* GSet_PlayingCardDeck.h */,
+				5A9A1D9416F7AF7B0016094E /* GSet_PlayingCardDeck.m */,
+				5A9A1D9516F7AF7B0016094E /* GSet_SetCard.h */,
+				5A9A1D9616F7AF7B0016094E /* GSet_SetCard.m */,
+				5A9A1D9716F7AF7B0016094E /* GSet_SetCardDeck.h */,
+				5A9A1D9816F7AF7B0016094E /* GSet_SetCardDeck.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +276,21 @@
 				5A9A1D7216F7AEAA0016094E /* main.m in Sources */,
 				5A9A1D7616F7AEAA0016094E /* GSet_AppDelegate.m in Sources */,
 				5A9A1D8216F7AEAA0016094E /* GSet_ViewController.m in Sources */,
+				5A9A1D9916F7AF7B0016094E /* GSet_Card.m in Sources */,
+				5A9A1D9A16F7AF7B0016094E /* GSet_CardMatchingGame.m in Sources */,
+				5A9A1D9B16F7AF7B0016094E /* GSet_Deck.m in Sources */,
+				5A9A1D9C16F7AF7B0016094E /* GSet_PlayingCard.m in Sources */,
+				5A9A1D9D16F7AF7B0016094E /* GSet_PlayingCardDeck.m in Sources */,
+				5A9A1D9E16F7AF7B0016094E /* GSet_SetCard.m in Sources */,
+				5A9A1D9F16F7AF7B0016094E /* GSet_SetCardDeck.m in Sources */,
+				5A9A1DA416F7AF910016094E /* GSet_PlayingCard_ViewController.m in Sources */,
+				5A9A1DA516F7AF910016094E /* GSet_SetCard_ViewController.m in Sources */,
+				5A9A1DB216F7AFA30016094E /* GSet_CardView.m in Sources */,
+				5A9A1DB316F7AFA30016094E /* GSet_CollectionView_PlayingCardCell.m in Sources */,
+				5A9A1DB416F7AFA30016094E /* GSet_CollectionView_SetCardCell.m in Sources */,
+				5A9A1DB516F7AFA30016094E /* GSet_CollectionView_TextCell.m in Sources */,
+				5A9A1DB616F7AFA30016094E /* GSet_PlayingCardView.m in Sources */,
+				5A9A1DB716F7AFA30016094E /* GSet_SetCardView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
